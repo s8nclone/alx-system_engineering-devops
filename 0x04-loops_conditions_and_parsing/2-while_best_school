@@ -2,8 +2,8 @@
 #A script that displays 'Best School' 10 times
 
 num=0
-while ((n < 10))
+while ((num < 10))
 do
 	echo "Best School"
-	num=$((n+1))
+	num=$((num+1))
 done
