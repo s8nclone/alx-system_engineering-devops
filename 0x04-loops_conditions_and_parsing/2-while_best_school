@@ -5,5 +5,5 @@ num=0
 while ((n < 10))
 do
 	echo "Best School"
-	n=$((n+1))
+	num=$((n+1))
 done
