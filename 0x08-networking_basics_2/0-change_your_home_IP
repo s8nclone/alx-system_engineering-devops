@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Modifies hosts for an Ubuntu server
+
+cp /etc/hosts hosts_new
+sed -i s/^127.*/"127.0.0.2 localhost"/ hosts_new
+echo "8.8.8.8 facebook.com" >> hosts_new
+cp hosts_new /etc/hosts
